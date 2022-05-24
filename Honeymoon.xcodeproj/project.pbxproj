@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84137AE1283D14D4002B06AE /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84137AE0283D14D4002B06AE /* GuideComponent.swift */; };
+		849381E0283D127700B70FC4 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849381DF283D127700B70FC4 /* HeaderComponent.swift */; };
 		84DB9884283B9DA9009A7FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB9883283B9DA9009A7FDA /* ContentView.swift */; };
 		84DB9886283C3461009A7FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB9885283C3461009A7FDA /* LaunchScreen.storyboard */; };
 		84DB9888283C3C09009A7FDA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB9887283C3C09009A7FDA /* HeaderView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84137AE0283D14D4002B06AE /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		849381DF283D127700B70FC4 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		84DB9883283B9DA9009A7FDA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84DB9885283C3461009A7FDA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DB9887283C3C09009A7FDA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -46,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		849381DE283D125D00B70FC4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				849381DF283D127700B70FC4 /* HeaderComponent.swift */,
+				84137AE0283D14D4002B06AE /* GuideComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		84E23EC6283AE3DB00023730 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +78,7 @@
 		84E23ED1283AE3DB00023730 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				849381DE283D125D00B70FC4 /* Component */,
 				84E23EE0283AE63A00023730 /* Sounds */,
 				84E23EFE283B92B200023730 /* Model */,
 				84E23F01283B93B900023730 /* Data */,
@@ -189,9 +203,11 @@
 				84DB988A283C404F009A7FDA /* FooterView.swift in Sources */,
 				84DB9888283C3C09009A7FDA /* HeaderView.swift in Sources */,
 				84DB9884283B9DA9009A7FDA /* ContentView.swift in Sources */,
+				849381E0283D127700B70FC4 /* HeaderComponent.swift in Sources */,
 				84E23EFD283B929900023730 /* HoneymoonModel.swift in Sources */,
 				84E23F06283B94CA00023730 /* CardView.swift in Sources */,
 				84E23ED3283AE3DB00023730 /* HoneymoonApp.swift in Sources */,
+				84137AE1283D14D4002B06AE /* GuideComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
