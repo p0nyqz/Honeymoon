@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		84137AE1283D14D4002B06AE /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84137AE0283D14D4002B06AE /* GuideComponent.swift */; };
 		846C7775283EBF5500E79031 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C7774283EBF5500E79031 /* SymbolModifier.swift */; };
+		846C7778283EC76E00E79031 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C7777283EC76E00E79031 /* CardTransition.swift */; };
 		849381E0283D127700B70FC4 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849381DF283D127700B70FC4 /* HeaderComponent.swift */; };
 		84D0675B283D78CE0059D748 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0675A283D78CE0059D748 /* GuideView.swift */; };
 		84D0675D283D90E50059D748 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0675C283D90E50059D748 /* InfoView.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		84137AE0283D14D4002B06AE /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 		846C7774283EBF5500E79031 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		846C7777283EC76E00E79031 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
 		849381DF283D127700B70FC4 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		84D0675A283D78CE0059D748 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		84D0675C283D90E50059D748 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		846C7776283EC72400E79031 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				846C7777283EC76E00E79031 /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		849381DE283D125D00B70FC4 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		84E23ED1283AE3DB00023730 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				846C7776283EC72400E79031 /* Extension */,
 				84E23F03283B949F00023730 /* View */,
 				84D06760283D92A40059D748 /* Modifier */,
 				849381DE283D125D00B70FC4 /* Component */,
@@ -226,6 +237,7 @@
 				84D0675D283D90E50059D748 /* InfoView.swift in Sources */,
 				84DB988A283C404F009A7FDA /* FooterView.swift in Sources */,
 				84D0675F283D921D0059D748 /* TitleModifier.swift in Sources */,
+				846C7778283EC76E00E79031 /* CardTransition.swift in Sources */,
 				846C7775283EBF5500E79031 /* SymbolModifier.swift in Sources */,
 				84DB9888283C3C09009A7FDA /* HeaderView.swift in Sources */,
 				84DB9884283B9DA9009A7FDA /* ContentView.swift in Sources */,
